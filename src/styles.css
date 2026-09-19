@@ -5,41 +5,38 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-display: "Fraunces", Georgia, serif;
+  --font-display: "Space Grotesk", sans-serif;
   --font-body: "Inter", sans-serif;
 
   --radius: 0.75rem;
 
-  /* Indian spice palette */
-  --color-cream: #faf1e2;
-  --color-sand: #f2e2c8;
-  --color-brand: #b4551f; /* saffron terracotta */
-  --color-brand-foreground: #fffaf1;
-  --color-accent: #3f6212; /* curry-leaf green */
-  --color-deep: #311708; /* masala brown */
-  --color-marigold: #e2a63d;
-
-  --color-frost: var(--color-cream);
-  --color-ice: var(--color-sand);
+  /* Cool frost palette */
+  --color-frost: #edf2fa;
+  --color-ice: #dce7f5;
+  --color-brand: #2557d6; /* cobalt blue */
+  --color-brand-foreground: #f4f8ff;
+  --color-accent: #0e7490; /* glacial teal */
+  --color-deep: #0d1b2e; /* midnight navy */
+  --color-sky: #8fbef2;
 
   /* semantic mapping */
-  --color-background: var(--color-cream);
+  --color-background: var(--color-frost);
   --color-foreground: var(--color-deep);
-  --color-card: rgba(255, 250, 241, 0.55);
+  --color-card: rgba(255, 255, 255, 0.55);
   --color-card-foreground: var(--color-deep);
-  --color-popover: rgba(255, 250, 241, 0.85);
+  --color-popover: rgba(255, 255, 255, 0.85);
   --color-popover-foreground: var(--color-deep);
   --color-primary: var(--color-brand);
-  --color-primary-foreground: #fffaf1;
-  --color-secondary: var(--color-sand);
+  --color-primary-foreground: #f4f8ff;
+  --color-secondary: var(--color-ice);
   --color-secondary-foreground: var(--color-deep);
-  --color-muted: rgba(49, 23, 8, 0.06);
-  --color-muted-foreground: rgba(49, 23, 8, 0.55);
-  --color-accent-foreground: #fffaf1;
+  --color-muted: rgba(13, 27, 46, 0.06);
+  --color-muted-foreground: rgba(13, 27, 46, 0.55);
+  --color-accent-foreground: #f4f8ff;
   --color-destructive: oklch(0.577 0.245 27.325);
-  --color-destructive-foreground: #fffaf1;
-  --color-border: rgba(255, 248, 235, 0.8);
-  --color-input: rgba(255, 250, 241, 0.6);
+  --color-destructive-foreground: #f4f8ff;
+  --color-border: rgba(255, 255, 255, 0.8);
+  --color-input: rgba(255, 255, 255, 0.6);
   --color-ring: var(--color-brand);
 }
 
@@ -56,17 +53,17 @@
 }
 
 @utility glass {
-  background: rgba(255, 250, 241, 0.5);
-  border: 1px solid rgba(255, 248, 235, 0.8);
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.8);
   box-shadow:
     0 1px 0 rgba(255, 255, 255, 0.9) inset,
-    0 24px 60px -28px rgba(49, 23, 8, 0.35);
+    0 24px 60px -28px rgba(13, 27, 46, 0.35);
   backdrop-filter: blur(18px);
 }
 
 @utility glass-soft {
-  background: rgba(255, 250, 241, 0.35);
-  border: 1px solid rgba(255, 248, 235, 0.65);
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.65);
   backdrop-filter: blur(12px);
 }
 

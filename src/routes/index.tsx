@@ -52,12 +52,12 @@ function Index() {
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(120% 90% at 12% 0%, #f7e5c6 0%, #faf1e2 42%, #fdf6ea 100%)",
+            "radial-gradient(120% 90% at 12% 0%, #dbe8fa 0%, #edf2fa 42%, #f6f9fe 100%)",
         }}
       />
-      <div className="orb -top-24 -left-24 size-[520px]" style={{ background: "linear-gradient(135deg, #f3c46a, rgba(243,196,106,0))" }} />
-      <div className="orb top-1/3 -right-28 size-[460px]" style={{ background: "linear-gradient(135deg, #e8a25a, rgba(232,162,90,0))" }} />
-      <div className="orb bottom-0 left-1/3 size-[380px]" style={{ background: "linear-gradient(135deg, #d9e2a8, rgba(217,226,168,0))" }} />
+      <div className="orb -top-24 -left-24 size-[520px]" style={{ background: "linear-gradient(135deg, #9cc3f2, rgba(156,195,242,0))" }} />
+      <div className="orb top-1/3 -right-28 size-[460px]" style={{ background: "linear-gradient(135deg, #7fb7d9, rgba(127,183,217,0))" }} />
+      <div className="orb bottom-0 left-1/3 size-[380px]" style={{ background: "linear-gradient(135deg, #c3d7f5, rgba(195,215,245,0))" }} />
 
       <div className="relative mx-auto max-w-6xl px-6 py-8">
         {/* nav */}
