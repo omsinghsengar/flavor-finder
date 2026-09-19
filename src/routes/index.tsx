@@ -84,10 +84,10 @@ function Index() {
             Cuisine · Location · Rating
           </p>
           <h1 className="mt-3 font-display text-4xl leading-[1.05] font-semibold tracking-tight md:text-5xl">
-            Find your next table, filtered to taste.
+            Find your next table, <span className="italic text-brand">spiced</span> to taste.
           </h1>
           <p className="mt-3 max-w-xl text-deep/60">
-            Tell Forkcast what you crave and where you are — we rank the best-rated spots around you.
+            Tell Forkcast what you crave and where you are — we rank the best-rated spots around you, from chaat stalls to coastal kitchens.
           </p>
 
           <div className="mt-7 grid gap-3 md:grid-cols-[1.2fr_1fr_1fr_auto]">
