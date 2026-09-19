@@ -20,6 +20,9 @@ import spiceMeridian from "@/assets/restaurants/spice-meridian.jpg";
 import saltTide from "@/assets/restaurants/salt-tide.jpg";
 import mashruq from "@/assets/restaurants/mashruq.jpg";
 import seoulHand from "@/assets/restaurants/seoul-hand.jpg";
+import kesarMahal from "@/assets/restaurants/kesar-mahal.jpg";
+import dakshinHouse from "@/assets/restaurants/dakshin-house.jpg";
+import chaatBazaar from "@/assets/restaurants/chaat-bazaar.jpg";
 
 export const RESTAURANTS: Restaurant[] = [
   { id: "1", name: "Trattoria Lume", cuisine: "Italian", location: "Riverside", rating: 4.9, distance: 0.8, avgPrice: 45, status: "Open now", open: true, image: trattoriaLume },
