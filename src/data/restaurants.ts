@@ -20,6 +20,9 @@ import spiceMeridian from "@/assets/restaurants/spice-meridian.jpg";
 import saltTide from "@/assets/restaurants/salt-tide.jpg";
 import mashruq from "@/assets/restaurants/mashruq.jpg";
 import seoulHand from "@/assets/restaurants/seoul-hand.jpg";
+import kesarMahal from "@/assets/restaurants/kesar-mahal.jpg";
+import dakshinHouse from "@/assets/restaurants/dakshin-house.jpg";
+import chaatBazaar from "@/assets/restaurants/chaat-bazaar.jpg";
 
 export const RESTAURANTS: Restaurant[] = [
   { id: "1", name: "Trattoria Lume", cuisine: "Italian", location: "Riverside", rating: 4.9, distance: 0.8, avgPrice: 45, status: "Open now", open: true, image: trattoriaLume },
@@ -34,6 +37,9 @@ export const RESTAURANTS: Restaurant[] = [
   { id: "10", name: "Forno Basso", cuisine: "Italian", location: "East Village", rating: 4.4, distance: 0.7, avgPrice: 38, status: "Open now", open: true, image: trattoriaLume },
   { id: "11", name: "La Milpa", cuisine: "Mexican", location: "Riverside", rating: 4.3, distance: 0.9, avgPrice: 18, status: "Open now", open: true, image: casaBrisa },
   { id: "12", name: "Le Comptoir", cuisine: "French", location: "Downtown", rating: 3.9, distance: 2.3, avgPrice: 65, status: "Opens 6pm", open: false, image: bistroVerre },
+  { id: "13", name: "Kesar Mahal", cuisine: "Indian", location: "Old Town", rating: 4.9, distance: 1.1, avgPrice: 42, status: "Open now", open: true, image: kesarMahal },
+  { id: "14", name: "Dakshin House", cuisine: "Indian", location: "East Village", rating: 4.7, distance: 0.8, avgPrice: 24, status: "Open now", open: true, image: dakshinHouse },
+  { id: "15", name: "Chaat Bazaar", cuisine: "Indian", location: "Riverside", rating: 4.4, distance: 0.6, avgPrice: 15, status: "Open now", open: true, image: chaatBazaar },
 ];
 
 export const CUISINES = ["All", ...Array.from(new Set(RESTAURANTS.map((r) => r.cuisine)))];
